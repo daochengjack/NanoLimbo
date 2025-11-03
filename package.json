@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "keepalive": "node scripts/falix-keepalive.js"
+  },
   "dependencies": {
     "puppeteer": "^23.8.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "p-retry": "^4.6.2",
     "node-fetch": "^3.3.2"
   }
 }

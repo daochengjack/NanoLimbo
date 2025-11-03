@@ -1,6 +1,21 @@
 # Falix Auto-Start GitHub Action
 
-This repository includes a GitHub Action that automatically keeps the Falix server alive by accessing the start page every 40 minutes.
+This repository includes GitHub Actions that automatically keep the Falix server alive.
+
+## Available Workflows
+
+### 1. Legacy Auto-Start (src/start-falix.js)
+- Runs every 40 minutes
+- Simple start page access
+- Telegram notifications
+
+### 2. New Keep-Alive Bot (scripts/falix-keepalive.js) 
+- Runs every 5 minutes  
+- Full login and status checking
+- Cloudflare verification handling
+- Smart server status detection
+- Ad flow management
+- Comprehensive logging
 
 ## How It Works
 
